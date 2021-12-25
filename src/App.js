@@ -39,12 +39,16 @@ function App() {
           </div>
           <div className="faixa"></div>
           <div className="tecnologias">
-            <span> HTML | CSS | Java Scrip | ReactJS</span>
+            <span> HTML | CSS | Java Script | ReactJS</span>
           </div>
         </div>
 
-        <div className="right-side">
-          <div className="background"></div>
+        <div className="projetos">
+          <h3>Projects</h3>
+        </div>
+
+        <div className="sobre">
+          <h3>Aboute me </h3>
         </div>
       </div>
     </div>
