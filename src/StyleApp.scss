@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: center;
   .myphoto {
-    width: 100px;
+    width: 150px;
 
     border: solid 3px #fecb00;
     border-radius: 50%;
@@ -49,4 +49,15 @@
     width: 25px;
     margin: 3px;
   }
+}
+
+.faixa {
+  width: 175px;
+  height: 1px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.tecnologias {
+  color: #fff;
 }

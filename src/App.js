@@ -22,10 +22,27 @@ function App() {
             <span>Front-end developer</span>
           </div>
           <div className="links">
-            <img className="img" src={Github} alt="Github"></img>
-            <img className="img" src={Linkedin} alt="Linkedin"></img>
+            <a
+              href="https://github.com/rafelradan"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="img" src={Github} alt="Icone Github" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/rafael-nascimento-a110a9103/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="img" src={Linkedin} alt="Linkedin"></img>
+            </a>
+          </div>
+          <div className="faixa"></div>
+          <div className="tecnologias">
+            <span> HTML | CSS | Java Scrip | ReactJS</span>
           </div>
         </div>
+
         <div className="right-side">
           <div className="background"></div>
         </div>
