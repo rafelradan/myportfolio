@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.left-side {
+  width: 100%;
+  border: solid 1px red;
+  background-color: #262626;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .myphoto {
+    width: 100px;
+
+    border: solid 3px #fecb00;
+    border-radius: 50%;
+
+    margin-top: 30px;
+  }
+
+  .back-text {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+    color: #fff;
+
+    .span1 {
+      font-size: 18px;
+      font-weight: bolder;
+    }
+    .span2 {
+      font-size: 22px;
+      margin-left: 5px;
+    }
+  }
+}
+
+.description {
+  color: #fff;
+}
+
+.links {
+  .img {
+    background-color: #fff;
+    border-radius: 03px;
+    width: 25px;
+    margin: 3px;
+  }
+}
