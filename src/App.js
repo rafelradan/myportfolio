@@ -5,8 +5,8 @@ import Linkedin from './img/linkedin-50.png'
 
 import MyPortfolio from './img/ProjectMyPortfolio01.png'
 import Filmaria from './img/ProjectFilmariaRdPortfolio01.png'
-import DevMediaTest from './img/ProjectTestDevMediaPortfolio01.png'
-import CadUser from './img/ProjectCadUserPortfolio01.png'
+/* import DevMediaTest from './img/ProjectTestDevMediaPortfolio01.png'
+import CadUser from './img/ProjectCadUserPortfolio01.png' */
 
 function App() {
   return (
