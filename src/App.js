@@ -8,6 +8,10 @@ import Filmaria from './img/ProjectFilmariaRdPortfolio01.png'
 import DevMediaTest from './img/ProjectTestDevMediaPortfolio01.png'
 import CadUser from './img/ProjectCadUserPortfolio01.png'
 
+import Telefone from './img/phoneContact.png'
+import Email from './img/emailContact.png'
+import Linkedin02 from './img/linkedinContact.png'
+
 function App() {
   return (
     <div className="App">
@@ -185,10 +189,41 @@ function App() {
           </section>
         </div>
 
-        <div className="sobre">
-          <h3>Aboute me </h3>
+        <div className="contacts">
+          <h3>Contacts </h3>
+
+          <div className="links-contacts">
+            <div className="img-contact">
+              <img src={Telefone} alt="telefone" />
+              <p>
+                <a href="tel:85996384807"> (85) 99638-4807</a>
+              </p>
+            </div>
+
+            <div className="img-contact">
+              <img src={Email} alt="email" />
+              <p>
+                <a href="mailto:rafaelradan76@gmail.com">
+                  rafaelradan76@gmail.com
+                </a>
+              </p>
+            </div>
+
+            <div className="img-contact">
+              <img src={Linkedin02} alt="linkedin" />
+              <p>
+                <a
+                  href="linkedin.com/in/rafael-nascimento-a110a9103"
+                  target="_blank"
+                >
+                  Linkedin
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+      <footer>Developed by Rafael Nascimento</footer>
     </div>
   )
 }
