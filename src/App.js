@@ -98,7 +98,7 @@ function App() {
                 <div className="paragraph">
                   <p>
                     Esse é um projeto também desenvolvido em React e totalmente
-                    resposivo, nesse caso o projeto consome uma API sobre
+                    responsivo, nesse caso o projeto consome uma API sobre
                     filmes, acessando Nome, Capa e Sinopse do filme. O site tem
                     três rotas, a Home, Favoritos e uma para pesquisar por
                     filmes no YouTube.
@@ -131,8 +131,9 @@ function App() {
                   <p>
                     Esse é um projeto apenas Front-end, foi uma prova que a
                     DevMedia lançou, eu vi o vídeo no YouTube, tirei um print da
-                    tela e resovi tentar fazer. Esse é o resultado, um Front-end
-                    responsivo. Projeto muito bom para treino de HTML e CSS.
+                    tela e resolvi tentar fazer. Esse é o resultado, um
+                    Front-end responsivo. Projeto muito bom para treino de HTML
+                    e CSS.
                   </p>
                 </div>
               </div>
@@ -161,7 +162,7 @@ function App() {
                 <div className="paragraph">
                   <p>
                     Esse é um CRUD completo, com Front-end e Back-end
-                    desenvolvido com ajuda de um amigo meu{' '}
+                    desenvolvido com ajuda de um amigo meu,{' '}
                     <a
                       href="https://www.linkedin.com/in/gleysonpc/"
                       rel="noreferrer"
