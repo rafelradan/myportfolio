@@ -5,8 +5,8 @@ import Linkedin from './img/linkedin-50.png'
 
 import MyPortfolio from './img/ProjectMyPortfolio01.png'
 import Filmaria from './img/ProjectFilmariaRdPortfolio01.png'
-/* import DevMediaTest from './img/ProjectTestDevMediaPortfolio01.png'
-import CadUser from './img/ProjectCadUserPortfolio01.png' */
+import DevMediaTest from './img/ProjectTestDevMediaPortfolio01.png'
+import CadUser from './img/ProjectCadUserPortfolio01.png'
 
 function App() {
   return (
@@ -83,9 +83,12 @@ function App() {
             {/* Project 01 end*/}
             {/* Project 02 */}
             <div className="individual-project">
+              <div className="title">
+                <h5>Filmaria</h5>
+              </div>
               <div className="content">
                 <div className="imgProject">
-                  <img src={Filmaria} alt="MyPortfolio" />
+                  <img src={Filmaria} alt="Filmaria" />
                 </div>
 
                 <div className="paragraph">
@@ -110,6 +113,75 @@ function App() {
               </button>
             </div>
             {/* Project 02 end*/}
+            {/* Project 03 */}
+            <div className="individual-project">
+              <div className="title">
+                <h5>DevMedia</h5>
+              </div>
+              <div className="content">
+                <div className="imgProject">
+                  <img src={DevMediaTest} alt="DevMediaTest" />
+                </div>
+
+                <div className="paragraph">
+                  <p>
+                    Esse é um projeto apenas Front-end, foi uma prova que a
+                    DevMedia lançou, eu vi o vídeo no YouTube, tirei um print da
+                    tela e resovi tentar fazer. Esse é o resultado, um Front-end
+                    responsivo. Projeto muito bom para treino de HTML e CSS.
+                  </p>
+                </div>
+              </div>
+
+              <button className="btn-acessar">
+                <a
+                  href="https://devmediatest.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Acessar
+                </a>
+              </button>
+            </div>
+            {/* Project 03 end*/}
+            {/* Project 04 */}
+            <div className="individual-project">
+              <div className="title">
+                <h5>CadUser</h5>
+              </div>
+              <div className="content">
+                <div className="imgProject">
+                  <img src={CadUser} alt="DevMediaTest" />
+                </div>
+
+                <div className="paragraph">
+                  <p>
+                    Esse é um CRUD completo, com Front-end e Back-end
+                    desenvolvido com ajuda de um amigo meu{' '}
+                    <a
+                      href="https://www.linkedin.com/in/gleysonpc/"
+                      rel="noreferrer"
+                    >
+                      Gleyson Carvalo
+                    </a>
+                    . Foi meu primeiro projeto, foi utilizando formulários,
+                    tabelas e listagem para treinar. Nele você pode cadastrar,
+                    editar, atualizar e excluir usuários.
+                  </p>
+                </div>
+              </div>
+
+              <button className="btn-acessar">
+                <a
+                  href="https://pensive-benz-f7f7da.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Acessar
+                </a>
+              </button>
+            </div>
+            {/* Project 04 end*/}
           </section>
         </div>
 
