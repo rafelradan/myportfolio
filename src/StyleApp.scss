@@ -117,6 +117,7 @@
   padding: 15px 0;
 
   border: solid 1px #393939;
+  box-shadow: 20px 20px 50px -30px #262626;
 
   .content {
     display: flex;
@@ -161,14 +162,15 @@
     width: 5rem;
     height: 1.5rem;
 
-    background: #fff;
+    background: linear-gradient(to right, #fff, #eece65);
 
-    border: none;
     border-radius: 5px;
+    border: none;
 
     :hover {
       background: #262626;
       color: #fff;
+      border: none;
     }
 
     a {
@@ -177,15 +179,12 @@
       justify-content: center;
 
       border-radius: 5px;
+      border: solid 0.5px #ffffff;
 
       width: 5rem;
       height: 1.5rem;
+      font-weight: bolder;
       color: #262626;
-
-      :hover {
-        background: #373737;
-        color: #fff;
-      }
     }
   }
 }
@@ -364,7 +363,7 @@ footer {
   }
 
   .individual-project {
-    max-width: 1024px;
+    width: 750px;
 
     margin: 15px auto;
 
